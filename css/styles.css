@@ -1,0 +1,147 @@
+body {
+  font-family: "Montserrat";
+}
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 2.9rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 1.42rem;
+}
+p {
+  color: #8f8f8f;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* Title image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press Section*/
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px; /*top left&right bottom*/
+}
+
+/* Pricing Section*/
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 6% 15%;
+  color: white;
+}
+.cta-heading {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+#footer {
+  padding: 5% 15%;
+  text-align: center;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static; /* to remove z-index b/c it doesn't work on static position*/
+    transform: rotate(0);
+  }
+}
